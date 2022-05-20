@@ -15,6 +15,12 @@ while index<size*size:
     if index >= size*size:
         break
     r -= 1
+    for _ in range(r):
+        y -=1
+        index +=1; tab[y][x] = index
+    for _ in range(r):
+        x +=1
+        index +=1; tab[y][x] = index
     break
 
 for line in tab:
