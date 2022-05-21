@@ -21,7 +21,7 @@ while index<size*size:
     for _ in range(r):
         x +=1
         index +=1; tab[y][x] = index
-    break
+   
 
 for line in tab:
     print('\t'.join(map(str, line)))
